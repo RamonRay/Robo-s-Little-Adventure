@@ -1,0 +1,100 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "belly": {
+            "shader": "Main shader"
+        },
+        "body": {
+            "shader": "Main shader"
+        },
+        "ears": {
+            "shader": "Main shader"
+        },
+        "eyes": {
+            "shader": "Main shader"
+        },
+        "head_bulb": {
+            "shader": "Main shader"
+        },
+        "head_metal": {
+            "shader": "Main shader"
+        },
+        "key": {
+            "shader": "Main shader"
+        },
+        "left_arm": {
+            "shader": "Main shader"
+        },
+        "left_arm_joints": {
+            "shader": "Main shader"
+        },
+        "left_foot": {
+            "shader": "Main shader"
+        },
+        "left_leg": {
+            "shader": "Main shader"
+        },
+        "left_leg_joint": {
+            "shader": "Main shader"
+        },
+        "mouth": {
+            "shader": "Main shader"
+        },
+        "nails": {
+            "shader": "Main shader"
+        },
+        "neck": {
+            "shader": "Main shader"
+        },
+        "right_arm": {
+            "shader": "Main shader"
+        },
+        "right_arm_joint": {
+            "shader": "Main shader"
+        },
+        "right_claw": {
+            "shader": "Main shader"
+        },
+        "right_foot": {
+            "shader": "Main shader"
+        },
+        "right_leg": {
+            "shader": "Main shader"
+        },
+        "right_leg_joint": {
+            "shader": "Main shader"
+        }
+    }
+}
